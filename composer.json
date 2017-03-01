@@ -1,0 +1,22 @@
+{
+	"name": "consik/yii2-flysystem",
+	"description": "Yii2 flysystem component",
+	"type": "yii2-extension",
+	"keywords": ["yii2", "flysystem", "filesystem", "component", "local", "ftp", "samba", "google drive", "azure", "dropbox"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Sergey Poltaranin (Consik)",
+			"email": "consigliere.kz@gmail.com"
+		}
+	],
+	"require": {
+		"yiisoft/yii2": "*",
+		"league/flysystem": "^1.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"consik\\yii2flysystem\\": ""
+		}
+	}
+}
