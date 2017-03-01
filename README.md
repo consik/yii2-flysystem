@@ -3,7 +3,8 @@
 [![Total Downloads](https://poser.pugx.org/consik/yii2-flysystem/downloads)](https://packagist.org/packages/consik/yii2-flysystem)
 [![License](https://poser.pugx.org/consik/yii2-flysystem/license)](https://packagist.org/packages/consik/yii2-flysystem)
 
-Yii2 component for working with league/flysystem
+Yii2 component for working with league/flysystem.
+
 Based on [flysystem](https://github.com/thephpleague/flysystem)
 
 ## Installation
