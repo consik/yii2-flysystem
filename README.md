@@ -3,9 +3,7 @@
 [![Total Downloads](https://poser.pugx.org/consik/yii2-flysystem/downloads)](https://packagist.org/packages/consik/yii2-flysystem)
 [![License](https://poser.pugx.org/consik/yii2-flysystem/license)](https://packagist.org/packages/consik/yii2-flysystem)
 
-Yii2 component for working with league/flysystem.
-
-Based on [flysystem](https://github.com/thephpleague/flysystem)
+Yii2 component for working with [league/flysystem](https://github.com/thephpleague/flysystem).
 
 ## Installation
 
@@ -39,6 +37,7 @@ Define component in yii config for your filesystem:
         'plugins' => [
             \League\Flysystem\Plugin\ListFiles::class
         ]
+        //'config' => [] //\League\Flysystem\Filesystem config param
     ]
     ...
 ]
